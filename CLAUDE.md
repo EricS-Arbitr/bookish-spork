@@ -10,13 +10,12 @@ There is no build system, test framework, CI/CD pipeline, or application code. A
 
 ## Repository Structure
 
-All files live in the root directory (no subdirectories):
-
 - **KSATs:** `Cyber Defense Infra Supp Spec-KSATs.xlsx` — the authoritative KSAT requirements that all training content must satisfy
 - **Course outline:** `CDIH CDISS Course Outlines *.md` — defines the overall course structure
 - **Lessons (15 files):** `Lesson *.md` — instructional content covering cybersecurity topics (network infrastructure, defense tools, access control, cloud security, DoD frameworks, RMF, hardening, etc.)
 - **Labs (18 files):** `LAB *.md` — hands-on exercises corresponding to lessons (Arkime, Zeek, Suricata, Sysmon, Wazuh, Windows Defender, VPN, backup/recovery, etc.)
 - **Images (102 PNG files):** Screenshots and diagrams referenced by the Markdown files, mostly named with UUIDs
+- **References:** `references/` — doctrinal reference PDFs (CWPs, JP 3-12, etc.); git-ignored, available locally only
 
 ## Target Audience
 
